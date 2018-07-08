@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<meta name="viewport" content="width=device-width" />    
+	<link rel="stylesheet" href="css/template.css" type="text/css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/steps_registration.js"></script>
+	<title>Страница</title>
+</head>
+<body>
+<form method="get" action="send.php">
+		<div class="step" id="step">
+			<p class="step-text">1. Для чего Вы хотите пройти курс сварки?</p>
+			<p><input type="checkbox" name="form-step" value="a1">для себя</p>
+			<p><input type="checkbox" name="form-step" value="a2">для себя и подработок</p>
+			<p><input type="checkbox" name="form-step" value="a3">для того, чтобы найти высокооплачиваемую работу</p>
+			<p><input type="checkbox" name="form-step" value="a4">для того, чтобы открыть свой прибыльный бизнес и работать на себя</p>
+			<p><input type="checkbox" name="form-step" value="a5">другое.</p>
+			<a href="#" id="hider">Следующий шаг</a>
+			</div>
+			
+
+		<div class="step2" id="step2">
+			<p class="step-text" id="step2">2. Сколько Вам лет?</p>
+   			<p><input type="number" size="3" name="num" min="18" max="100" value="18"></p>
+   			<a href="#" id="back2">Назад</a>
+			<a href="#" id="next2">Следующий шаг</a>
+		</div>
+
+		<div class="step3" id="step3">
+			<p class="step-text">3. Когда Вам легче учиться — утром или вечером?</p>
+			<p><input type="checkbox" name="option1" value="a1">утром</p>
+			<p><input type="checkbox" name="option2" value="a2">вечером</p>
+			<a href="#" id="back3">Назад</a>
+			<a href="#" id="next3">Следующий шаг</a>
+		</div>
+
+		<div class="step4" id="step4">
+			<p class="step-text">4. Вам легче учиться по учебникам или на конкретных примерах, когда мастер все пошагово показывает и делает сам на Ваших глазах?</p>
+			<p><input type="checkbox" name="option1" value="a1">по учебникам</p>
+			<p><input type="checkbox" name="option2" value="a2">когда все показывают</p>
+			<a href="#" id="back4">Назад</a>
+			<a href="#" id="next4">Следующий шаг</a>
+		</div>
+
+		<div class="step5" id="step5">
+			<p class="step-text">5. Учились ли Вы сварке до этого?</p>
+			<p><input type="checkbox" name="option1" value="a1">не учился</p>
+			<p><input type="checkbox" name="option2" value="a2">учился у знакомых</p>
+			<p><input type="checkbox" name="option2" value="a2">пробовал разобраться по книгам</p>
+			<p><input type="checkbox" name="option2" value="a2">учился на других курсах</p>
+			<p><input type="checkbox" name="option2" value="a2">другое</p>
+			<a href="#" id="back5">Назад</a>
+			<a href="#" id="next5">Следующий шаг</a>
+		</div>
+
+		<div class="step6" id="step6">
+			<p class="step-text">6. Проходили ли Вы раньше какие-нибудь курсы в интернете?</p>
+			<p><input type="checkbox" name="option1" value="a1">да</p>
+			<p><input type="checkbox" name="option2" value="a2">нет</p>
+			<a href="#" id="back6">Назад</a>
+			<a href="#" id="next6">Следующий шаг</a>
+		</div>
+
+		<div class="step7" id="step7">
+			<p class="step-text">7. Сможете ли Вы уделять по 40 мин. 2 раза в неделю для занятий?</p>
+			<p><input type="checkbox" name="option1" value="a1">да</p>
+			<p><input type="checkbox" name="option2" value="a2">нет</p>
+			<a href="#" id="back7">Назад</a>
+			<a href="#" id="next7">Следующий шаг</a>
+		</div>
+
+		<div class="step8" id="step8">
+			<p class="step-text">8. Как Вам удобнее получать информацию от организаторов курсов и преподавателей: по электронной почте или по телефону?</p>
+			<p><input type="checkbox" name="option1" value="a1">по почте</p>
+			<p><input type="checkbox" name="option2" value="a2">по телефону</p>
+			<a href="#" id="back8">Назад</a>
+			<a href="#" id="next8">Следующий шаг</a>
+		</div>
+
+
+		<div id="step9" style="display: none;">
+			<div id="page-preloader">
+				<div class="contpre">
+					<div class="spinner"></div>
+					<h2>Спасибо за уделенное время!</h2>
+				</div>
+
+			</div>
+			
+		</div>
+
+
+		<div id="step10" class="step10">
+			<p class="step-text">10. Шаг форма для заполнения данных</p>
+			<p>Мы уже обрабатываем Ваши ответы, через 5 минут Вы получите результаты. Введите пожалуйста данные.</p>
+			<p>Номер: <input type="tel" name="phone" pattern="2[0-9]{3}-[0-9]{3}"></p>
+			<p>Имя: <input type="text" name="name" ></p>
+			<p><input type="submit" value="Отправить"></p>
+		</div>
+
+		
+
+	</form>
+
+
+
+
+</body>
+</html>

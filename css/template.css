@@ -1,0 +1,87 @@
+﻿/* Общие стили */
+body {
+	margin:0;
+	margin-top: 10%;
+}
+/* Общие стили закончилась */
+
+
+form {
+	width:30%;
+	margin:0 auto;
+}
+	form div.step {
+	}
+
+	form div.step2, .step3, .step9, .step4, .step5, .step6, .step7, .step8, .step10 {
+		display: none;
+	}
+
+.step-text {
+	font-size: 25px;
+	text-align: center;
+}
+
+.step10 p {
+	text-align: center;
+}
+	
+	form input[type=submit] {
+				color: rgb(255, 255, 255);
+		text-decoration:none;
+		background-color: rgb(45, 99, 208);
+		padding: 10px 20px 10px 20px;
+ 
+	}
+	
+	a {
+		color: rgb(255, 255, 255);
+		text-decoration:none;
+		background-color: rgb(45, 99, 208);
+		padding: 7px;
+    margin-left: 25%;
+
+	}
+	
+	body > form > p > input[type="submit"] {
+		color: rgb(255, 255, 255);
+		text-decoration:none;
+		background-color: rgb(45, 99, 208);
+		padding: 5px;
+	}
+
+
+
+
+h2.step9  {
+	color: #000;
+}
+
+#page-preloader {
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background: #fff;
+z-index: 30;
+}
+ 
+.contpre small {
+	font-size:25px;
+}
+ 
+.contpre {
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10%;
+}
+ 
+.spinner {
+margin-top: 10%;
+height: 200px;
+background: url(../image/25.gif) center center no-repeat;
+
+}
